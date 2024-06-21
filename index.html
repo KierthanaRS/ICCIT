@@ -204,7 +204,15 @@
         div.wpcf7-validation-errors, .cbox div.wpcf7-acceptance-missing { background:#ffff55; color:#ff0000; }
         div.wpcf7-mail-sent-ok {  background:#398f14; color:#ffffff; }
         div.wpcf7-mail-sent-ng, div.wpcf7-aborted { /* background:#ff0000; color:#f7e700; */ background:#398f14; color:#ffffff; }
+        
         div.wpcf7-spam-blocked {  background:#ffa500; color:#ff0000; }
+        .inner-banner {
+           
+            background: url('it.jpg') no-repeat center;
+
+            max-height: 450px;
+            z-index: 0;
+        }
         .container-name {
             width: 100%;
             display: flex;
@@ -230,11 +238,16 @@
             }
         }
         @media (max-width: 480px) {
+            .inner-banner {
+                background: url('it-small.jpg') no-repeat center;
+                background-size: cover;
+                min-height: 200px;
+            }
             .container-name h1 {
                 font-size: 18px;
                 margin: 10px 0;
             }
-        }
+}
        
         </style>
             
@@ -457,18 +470,12 @@
 	<!--Header Ends-->
     <div class="clear"></div>
 	<!--Inner Banner-->
-    <section class="inner-banner" style="background: url('it.jpg') no-repeat center;  ">
+    <section class="inner-banner">
         <div class="container-name">
             <h1>International Conference on Computing and Information Technologies</h1>
             <h1>Information Technologies</h1>
         </div>
-        
-    <div class="row">
-        
-        <!-- <div class="bGrm">
-        	<ul id="breadcrumbs" class=""><li class="item-home"><a class="bread-link bread-home" href="https://www.citchennai.edu.in" title="Home">Home  </a></li>  <li class="separator separator-home">|</li>  <li class="item-parent item-parent-8839"><a class="bread-parent bread-parent-8839" href="https://www.citchennai.edu.in/icdsaai/" title="ICDSAAI 2024">ICDSAAI 2024</a></li>  <li class="separator separator-8839"> | </li>  <li class="item-current item-8922"><strong title="ORGANIZING COMMITTEE"> ORGANIZING COMMITTEE</strong></li></ul>        </div>
-    </div> -->
-</section>
+    </section>
 <!--inner-banner-end-->
 <div class="clear"></div>
 
@@ -720,16 +727,16 @@ Chennai Institute of Technology</td>
 		        
 	<h2>ICCIT 2024</h2>
 		<ul>
-			<li class="page_item page-item-9045"><a href="https://www.citchennai.edu.in/icdsaai/program-committee/">PROGRAM COMMITTEE</a></li>
-<li class="page_item page-item-10589"><a href="https://www.citchennai.edu.in/icdsaai/conference-schedule/">CONFERENCE SCHEDULE</a></li>
-<li class="page_item page-item-8909"><a href="https://www.citchennai.edu.in/icdsaai/call-for-papers/">CALL FOR PAPERS</a></li>
-<li class="page_item page-item-8915"><a href="https://www.citchennai.edu.in/icdsaai/important-dates/">IMPORTANT DATES</a></li>
-<li class="page_item page-item-8918"><a href="https://www.citchennai.edu.in/icdsaai/doctoral-consortium/">DOCTORAL CONSORTIUM</a></li>
-<li class="page_item page-item-8920"><a href="https://www.citchennai.edu.in/icdsaai/icdsaai-2022-advisory-committee/">ADVISORY COMMITTEE</a></li>
-<li class="page_item page-item-8922 current_page_item active"><a href="https://www.citchennai.edu.in/icdsaai/icdsaai-2022-organizing-committee/" aria-current="page">ORGANIZING COMMITTEE</a></li>
-<li class="page_item page-item-9957"><a href="https://www.citchennai.edu.in/icdsaai/registration/">REGISTRATION</a></li>
-<li class="page_item page-item-8937"><a href="https://www.citchennai.edu.in/icdsaai/publications/">PUBLICATIONS</a></li>
-<li class="page_item page-item-8907"><a href="https://www.citchennai.edu.in/icdsaai/contact-us/">CONTACT US</a></li>
+			<li class="page_item page-item-9045"><a href="#">PROGRAM COMMITTEE</a></li>
+<li class="page_item page-item-10589"><a href="#">CONFERENCE SCHEDULE</a></li>
+<li class="page_item page-item-8909"><a href="#">CALL FOR PAPERS</a></li>
+<li class="page_item page-item-8915"><a href="#">IMPORTANT DATES</a></li>
+<li class="page_item page-item-8918"><a href="#">DOCTORAL CONSORTIUM</a></li>
+<li class="page_item page-item-8920"><a href="#">ADVISORY COMMITTEE</a></li>
+<li class="page_item page-item-8922 current_page_item active"><a href="#" aria-current="page">ORGANIZING COMMITTEE</a></li>
+<li class="page_item page-item-9957"><a href="#">REGISTRATION</a></li>
+<li class="page_item page-item-8937"><a href="#">PUBLICATIONS</a></li>
+<li class="page_item page-item-8907"><a href="#">CONTACT US</a></li>
 		</ul>
 	       
 
@@ -742,7 +749,6 @@ Chennai Institute of Technology</td>
 	        </div>
     </div>
 </section>
-<a href="https://wa.me/message/5QIYDAIBLS2OP1" target="_blank" title="Whatsapp" class="wa-ico"></a>
     <!-- foot links -->
     
     
