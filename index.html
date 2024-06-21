@@ -205,6 +205,37 @@
         div.wpcf7-mail-sent-ok {  background:#398f14; color:#ffffff; }
         div.wpcf7-mail-sent-ng, div.wpcf7-aborted { /* background:#ff0000; color:#f7e700; */ background:#398f14; color:#ffffff; }
         div.wpcf7-spam-blocked {  background:#ffa500; color:#ff0000; }
+        .container-name {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .container-name h1 {
+            color: #fff;
+            margin: 20px 0px;
+            position: inherit;
+            margin-top: 10%;
+            padding: 0;
+        }
+        @media (max-width: 768px) {
+            .container-name {
+                padding: 10px;
+            }
+            .container-name h1 {
+                font-size: 24px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container-name h1 {
+                font-size: 18px;
+                margin: 10px 0;
+            }
+        }
+       
         </style>
             
             <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -426,10 +457,12 @@
 	<!--Header Ends-->
     <div class="clear"></div>
 	<!--Inner Banner-->
-    <section class="inner-banner" style="background: url('it.jpg') no-repeat center; background-size: contain; width: 1500px; height: 595px;">
-    <!-- <div style="margin-top: -150px;">
-        <h1 style="color: #fff;">International Conference on Computing and Information Technologies</h1>
-    </div> -->
+    <section class="inner-banner" style="background: url('it.jpg') no-repeat center;  ">
+        <div class="container-name">
+            <h1>International Conference on Computing and Information Technologies</h1>
+            <h1>Information Technologies</h1>
+        </div>
+        
     <div class="row">
         
         <!-- <div class="bGrm">
